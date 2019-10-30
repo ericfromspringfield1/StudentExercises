@@ -11,6 +11,7 @@ public class Instructor
 
     public string SlackHandle { get; set; }
     public string Specialty { get; set; }
+    public int CohortNumber { get; set;}
 
     public string FullName
         {
